@@ -1,0 +1,112 @@
+.acomodo {
+    display: flex;
+    width: 100%;
+}
+
+.contenedores {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    /*background-color: blueviolet;*/
+}
+
+.conta {
+    display: flex;
+    /*background-color: cadetblue;*/
+    width: 100%;
+}
+
+.cont {
+    display: flex;
+    height: 30%;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    border: white solid 2px;
+    border-radius: 10px;
+    border-style:hidden;
+    box-shadow: inset 0 0 10px #444;
+}
+
+.footer{
+    margin: auto;
+}
+
+.dash {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+}
+
+.main {
+    display: flex;
+    background-color: darkcyan;
+}
+
+/*REPORTS*/
+
+.posicion {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    gap: 60px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 43%;
+    background-color: lightgray;
+    border-radius: 7px;
+}
+
+.caja {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    /*background-color: aqua;*/
+}
+
+.hijos{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 50%;
+    color: aliceblue;
+}
+
+.hijos2{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 90%;
+    height: 35%;
+    background-color: gray;
+    color: aliceblue;
+}
+
+.hijos3{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
